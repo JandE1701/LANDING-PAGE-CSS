@@ -1,19 +1,57 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>pagina en CSS</title>
-    
+
     <!-- Icono de la pagina -->
-    <link rel="shortcut icon" href="../IMAGES/favicon.png" type="image/x-icon">
-    
+    <link rel="shortcut icon" href="../IMAGES/favicon.png" type="image/x-icon" />
+
     <!-- Estilo CSS -->
-    <link rel="stylesheet" href="../CSS/normalize.css">
-    <link rel="stylesheet" href="../CSS/estilo.css">
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/estilo.css" />
 </head>
+
 <body>
-    
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Curso CSS.</h2>
+            </div>
+
+            <ul class="nav__link nav_link--menu=">
+                <li class="nav__items">
+                    <a href="" class="nav__links">Inicio</a>
+                </li>
+                <li class="nav__items">
+                    <a href="" class="nav__links">Acerca de</a>
+                </li>
+                <li class="nav__items">
+                    <a href="" class="nav__links">Contacto</a>
+                </li>
+                <li class="nav__items">
+                    <a href="" class="nav__links">Blog</a>
+                </li>
+
+                <img src="../IMAGES/close.svg" class="nav__close" />
+            </ul>
+            <div class="nav__menu">
+                <img src="../IMAGES/menu.svg" class="nav_img" />
+            </div>
+        </nav>
+        <section class="hero__container container">
+            <h1 class="hero__title">Aprende CSS desde CERO hasta dominarlo</h1>
+            <p class="hero__paragraph">
+                Eige aprender de una vez por todas, una vez que termines este curso
+                serás capaz de crear cualquier layout con CSS y crear tus propias
+                animaciones
+            </p>
+            <a href="" class="cta">Comienza ahora</a>
+        </section>
+    </header>
 </body>
+
 </html>
