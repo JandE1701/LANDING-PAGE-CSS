@@ -1,3 +1,4 @@
+/* Importamos tipos de fuentes desde Google Fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap");
 
 :root {
@@ -219,7 +220,7 @@ body {
     --color-items: #696871;
 }
 
-.price__element--best{
+.price__element--best {
     width: 370px;
     padding: 60px 40px;
     background-color: #ff7143;
@@ -265,18 +266,18 @@ body {
 
 /* Testimony */
 
-.testimony{
+.testimony {
     background-color: #e5e5f7;
 }
 
-.testimony__container{
+.testimony__container {
     display: grid;
     grid-template-columns: 50px 1fr 50px;
     gap: 1em;
     align-items: center;
 }
 
-.testimony__body{
+.testimony__body {
     display: grid;
     grid-template-columns: 1fr max-content;
     justify-content: space-between;
@@ -288,13 +289,13 @@ body {
     pointer-events: none;
 }
 
-.testimony__body--show{
+.testimony__body--show {
     pointer-events: unset;
     opacity: 1;
     transition: opacity 1.5s ease-in-out;
 }
 
-.testimony__img{
+.testimony__img {
     width: 250px;
     height: 250px;
     border-radius: 50%;
@@ -302,19 +303,53 @@ body {
     object-position: 50% 30%;
 }
 
-.testimony__texts{
+.testimony__texts {
     max-width: 700px;
 }
 
-.testimony__course{
+.testimony__course {
     background-color: royalblue;
     color: white;
     display: inline-block;
     padding: 5px;
 }
 
-.testimony__arrow{
+.testimony__arrow {
     width: 90%;
     cursor: pointer;
 }
 
+/* Questions */
+
+.questions {
+    text-align: center;
+}
+
+.questions__container {
+    display: grid;
+    gap: 2em;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+.questions__padding {
+    padding: 0;
+    transition: padding .2s;
+    border: 1px solid #5454d4;
+}
+
+.questions__padding--add{
+    padding-bottom: 30px;
+}
+
+.questions__answer{
+    padding: 30px 0 30px;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--colot-title);
+}
+
+.questions__arrow{
+    border-radius: 50%;
+    background-color: var(--colot-title);
+}
